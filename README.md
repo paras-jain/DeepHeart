@@ -1,7 +1,6 @@
 # DeepHeart
 
- DeepHeart is a neural network designed for the [2016 Physionet Challenge]
- (http://physionet.org/physiobank/database/challenge/2016/) in predicting
+ DeepHeart is a neural network designed for the [2016 Physionet Challenge](http://physionet.org/physiobank/database/challenge/2016/) in predicting
  cardiac abnormalities from phonocardiogram (PCG) data. The challenge
  provides heart recordings from several patients labeled as normal
  or abnormal. It is difficult to predict patient health from PCG data 
@@ -9,8 +8,7 @@
  sounds, etc.
  
  To combat the excessive amount of noise and relatively small sample size, 
- a convolutional neural network is trained using Google's [Tensorflow]
- (http://github.com/tensorflow/tensorflow). Tensorflow provides an easy to use interface 
+ a convolutional neural network is trained using Google's [Tensorflow](http://github.com/tensorflow/tensorflow). Tensorflow provides an easy to use interface 
  for compiling and efficiently running neural networks. 
  
  Ideally the raw wav files would be fed into a very deep Tensorflow
